@@ -9,7 +9,7 @@ import os
 app = Flask(__name__)
 
 # Set the environment variable in Python script
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["TAVILY_API_KEY"] = ""
 
 def llm_response(query):
     try:
